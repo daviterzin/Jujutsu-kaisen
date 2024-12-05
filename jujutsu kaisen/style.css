@@ -1,0 +1,110 @@
+/* Reset básico */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo Geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #f4f4f4;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: #202020;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #f7d354;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+  }
+  
+  nav ul li a:hover {
+    color: #f7d354;
+  }
+  
+  /* Seções */
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    color: #f7d354;
+    margin-bottom: 10px;
+  }
+  
+  main p, main ul {
+    margin-bottom: 20px;
+  }
+  
+  main ul li {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #202020;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  .btn {
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Centralizar o texto */
+    text-decoration: none; /* Remover sublinhado para links */
+    display: inline-block; /* Manter como bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Mostrar o cursor de mão */
+    transition: background-color 0.3s ease; /* Animação de transição */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+
+  body {
+    background-image: url('imagens/capa.webp');
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Faz a imagem preencher o elemento */
+    background-position: center; /* Centraliza a imagem */
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    background: url('imagens/capa.webp') no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
